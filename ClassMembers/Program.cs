@@ -81,6 +81,14 @@ namespace OOPIntro_
             Console.WriteLine("indexer : " + indexer[6]);
             Console.WriteLine("indexer[1] : " + indexer[1]);
             #endregion
+            #region MyObject
+            new MyObject(); // bu bizim nesnemizi oluşturmamız için yeterli bir koddur. Şuan nesnemiz oluşturuldu ve HEAP'de bir yeri var fakat biz onu referans olarak göstermeden erişim sağlayamayız.
+
+            MyObject newObject = new MyObject(); //şimdi yeni bir nesne oluşturduk ve newObject isminde bir değer tutucu ile STACK de referans noktasını tutuyoruz. Dolayısıyla biz nesnemize bu değişken üzerinden artık erişebiliriz.
+
+            //Target Type -- New Expressions (c# 9.0) ile gelen yeni bir tanımlamaya göre nesne oluşturulur oluşturulmaz referans gösterilmesi için bir değişkene referansı atanıyorsa bu şekilde bir tanımlamada artık geçerlidir.
+            MyObject newObject2 = new();
+            #endregion
         }
         #region FieldClass
         class Field
@@ -199,6 +207,18 @@ namespace OOPIntro_
             {
                 get { return i; }
                 set { i = value; }
+            }
+        }
+        #endregion
+        #region MyObjectClass
+        //bir nesne nasıl oluşturulur konusuna örnek niteliğinde
+        class MyObject
+        {
+            int a;
+            public string Adi { get; set; }
+            public int SayiTopla(int a, int b)
+            {
+                return a + b;
             }
         }
         #endregion
