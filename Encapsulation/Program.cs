@@ -27,7 +27,7 @@ namespace OOPIntro_
         #region MetotEncapsulationClass
         class MyClass
         {
-            int a;
+            private int a;
             public int AGet()
             {
                 // int value = this.a * 3; gibi veriyi istediğimiz şekilde kurallar ile yönetip istediğimiz değeri dış dünyaya açabiliriz tamamen bizim elimizde
@@ -42,7 +42,7 @@ namespace OOPIntro_
         #region PropertyEncapsulationClass
         class MyClass2
         {
-            int a;
+            private int a;
             // field'ı eğer biz oluşturmuş ve kendi oluşturmuş olduğumuz field için bir encapsulation yapacaksak full property'i kullanıyoruz.
             public int A
             {
