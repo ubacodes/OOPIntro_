@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMembers", "ClassMembers\ClassMembers.csproj", "{49F4CA9A-886C-4E33-B014-488CC77128DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMembers", "ClassMembers\ClassMembers.csproj", "{49F4CA9A-886C-4E33-B014-488CC77128DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectCopy", "ObjectCopy\ObjectCopy.csproj", "{5B34F400-5AEB-49C5-BA63-F32062056E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{EB4AB8A5-8A47-4398-9B4A-A7876DCF61CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{49F4CA9A-886C-4E33-B014-488CC77128DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F4CA9A-886C-4E33-B014-488CC77128DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49F4CA9A-886C-4E33-B014-488CC77128DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B34F400-5AEB-49C5-BA63-F32062056E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B34F400-5AEB-49C5-BA63-F32062056E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B34F400-5AEB-49C5-BA63-F32062056E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B34F400-5AEB-49C5-BA63-F32062056E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4AB8A5-8A47-4398-9B4A-A7876DCF61CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4AB8A5-8A47-4398-9B4A-A7876DCF61CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4AB8A5-8A47-4398-9B4A-A7876DCF61CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4AB8A5-8A47-4398-9B4A-A7876DCF61CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
