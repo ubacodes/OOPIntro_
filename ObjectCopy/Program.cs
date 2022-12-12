@@ -26,7 +26,7 @@ namespace OOPIntro_
     class MyClass
     {
         int x;
-        string field;
+        string field; 
         public int Id { get; set; }
         public string Name { get; set; }
 

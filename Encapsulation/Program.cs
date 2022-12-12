@@ -55,6 +55,6 @@ namespace OOPIntro_
             // field'ı biz oluşturmadık ve encapsulation yaparken herhangi bir kontrol yapısı (field'ın değerinde değişikliğe gitmeden) kurmadan direkt field'ın değerini olduğu gibi dış dünyaya verip alacak isek prop property kullanabiliriz
             public string Adi { get; set; } // compile kendisi adi field'ını oluşturacaktır.
         }
-        #endregion
+        #endregion 
     }
 }
