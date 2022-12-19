@@ -151,5 +151,33 @@ namespace OOPIntro_
             }
         }
         #endregion
+        #region SingletonDesignPattern
+        // Bir sınıftan uygulama bazında sade ve sadece  tek bir nesne oluşturulmasını istiyorsan kullanabileceğin bir design pattern
+        // intro seviyede göreceğiz
+        class Database
+        {
+            private Database() //nesnenin türetilmesini kapattık
+            { }
+
+            static Database database;
+
+            static public Database GetInstance  //biz ilk olarak bu static property nesnesini tetikleyeceğiz o tetiklenirken static const. tetikleneceği için nesnemiz oluşacaktır
+            {
+                get { return database; }
+            }
+
+            static Database()
+            {
+                database = new Database();      //nesnemizi oluşturuyoruz (içeriden)
+            }
+            /*
+             * Singleton Design Pattern
+             * biz nesnemizi dışarıdan oluşturulmaya kapatıyoruz
+             * daha sonra kendimiz nesneyi 1 kereye mahsus oluşturabilmek adına static bir referans yapılanması oluşturuyoruz
+             * daha sonra bu yapılanmayı static constructor ile tetikliyoruz ve 1 kereye mahsus 1 tane nesnemiz oluşuyor
+             * daha sonra uygulama bazında elimizde o nesneden 1 tane oluyor
+             */
+        }
+        #endregion
     }
 }
