@@ -19,6 +19,7 @@ namespace OOPIntro_
             new MyClass2(9);
 
         }
+        
         class BaseClass
         {
             int a;
@@ -45,7 +46,7 @@ namespace OOPIntro_
                 base.MyProperty = 20;
                 base.X();
                 // base.Y(); erişim belirleyicisi private olan memberlar kalıtımsal aktarılmaz ve erişilemez
-            }
+            } 
         }
 
         class MyClass
